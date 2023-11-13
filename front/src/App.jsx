@@ -5,6 +5,7 @@ import "./App.css";
 import ApiFetch from "./components/ApiFetch";
 import AppContext from "./contexts/AppContext";
 import B from "./components/B";
+import BasicReducer from "./components/BasicReducer";
 
 import TimerContainer from "./components/TimerContainer";
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 {/* <TimerContainer /> */}
                 <ApiFetch />
                 <B />
+                <BasicReducer />
             </div>
 
         </AppContext.Provider>
